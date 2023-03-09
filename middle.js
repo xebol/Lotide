@@ -35,4 +35,6 @@ console.log(middle([1, 2, 3, 4, 5])); // => [3]
 console.log(middle([1, 2, 3, 4, 5, 6, 7])); // => [4]
 console.log(middle(["Hello", "Lighthouse", "Labs"])); // => ["Lighthouse"]
 
-//Write test cases with assertArraysEqual
+let result1 = assertArraysEqual(middle([1, 2, 3, 4, 5, 6]), [3, 4]);// => [3, 4]
+let result2 = assertArraysEqual(middle([1, 2]), []); // => []
+let result3 = assertArraysEqual(middle(["Hello", "Lighthouse", "Labs"]), ["Lighthouse"]);
