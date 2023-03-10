@@ -6,10 +6,23 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-const countLetters = function(str) {
+const countLetters = function(string) {
+  const result = {};
 
+  for (let letter of string) {
+    if(letter !== " ")//filter out the space
+      if (result[letter]) {
+        result[letter] += 1; //increment couter for each letter
+      } else {
+        result[letter] = 1; //
+      }
+  }
+  return result;
 };
 
+
+
+console.log(countLetters("lighthouse in the house"));
 
 const lettersUsed = {
   l: 1,
