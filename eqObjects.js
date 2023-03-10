@@ -26,10 +26,10 @@ if(object1Length !== object2Length) {
   return false;
 }
   for (let key in object1) {
-    if(Array.isArray(object1[key]) === Array.isArray(object2[key])) {
+    if(Array.isArray(object1[key]) && Array.isArray(object2[key])) {
       const arrayCheck = eqArrays(object1[key], object2[key])
     
-    if(arrayCheck === false) {
+    if(!arrayCheck) {
       return false;
     }
     }
