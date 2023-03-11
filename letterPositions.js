@@ -24,7 +24,7 @@ const letterPositions = function(sentence) {
   //loop through the string 
   for (let i = 0; i < sentence.length; i++) {
     if (sentence[i] !== " ") //filter out the space
-      //check if the characted already exist in the result object
+      //check if the character already exist in the result object
       if (result[sentence[i]]) {
         //if character exist, push it to the array
         result[sentence[i]].push(i);
