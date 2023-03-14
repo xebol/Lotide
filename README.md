@@ -31,4 +31,7 @@ The following functions are currently implemented:
 * `middle(...)`: Middle function takes in an array as a parameter and returns the middle index or most middle indexes 
 * assertEqual`(...)`: Assert Equal function compares the actual output and expected output and prints appropriate message whether the input matches the output or not.
 * assertArraysEqual`(...)`: Assert Arrays Equal checks if two arrays are equal or not and prints a message accordingly.
-* `(...)`: description
+* `countOnly(...)`: Count only function counts how many times a string appears in an array.
+* `letterPositions(...)`: Letter position function returns all the indices (zero-based positions) in the string where each character is found.
+* `eqObjects(...)`: Equal Object function takes in two objects and returns true or false, based on a perfect match.
+* `eqArrays(...)`: Equal Arrays function takes in two arrays and returns true or false, based on a perfect match.
