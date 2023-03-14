@@ -3,11 +3,13 @@ const tail = require('./tail');
 const middle = require('./middle');
 const assertArraysEqual = require('./assertArraysEqual');
 const assertEqual = require('./assertArraysEqual');
+const eqArrays = require('./eqArrays');
 
 module.exports = {
   head,
   tail,
   middle,
   assertEqual,
-  assertArraysEqual
+  assertArraysEqual,
+  eqArrays
 };
