@@ -1,6 +1,5 @@
 const assert = require('chai').assert;
 const eqObjects = require('../eqObjects');
-const eqArrays = require('../eqArrays');
 
 describe("eqObjects", () => {
   it("returns true if objects are equal", () => {
